@@ -48,11 +48,19 @@
 		87909724210C533600C4E38A /* YLogging */ = {
 			isa = PBXGroup;
 			children = (
-				8790972D210C53F600C4E38A /* YLog.swift */,
+				87909753210C69AB00C4E38A /* Class */,
 				87909725210C533600C4E38A /* YLogging.h */,
 				87909726210C533600C4E38A /* Info.plist */,
 			);
 			path = YLogging;
+			sourceTree = "<group>";
+		};
+		87909753210C69AB00C4E38A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				8790972D210C53F600C4E38A /* YLog.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
