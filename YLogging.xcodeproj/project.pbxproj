@@ -11,6 +11,8 @@
 		8790972E210C53F600C4E38A /* YLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790972D210C53F600C4E38A /* YLog.swift */; };
 		87909755210C6AEF00C4E38A /* SecondFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87909754210C6AEF00C4E38A /* SecondFile.swift */; };
 		87909757210C6B0800C4E38A /* ThirdFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87909756210C6B0800C4E38A /* ThirdFile.swift */; };
+		87909759210C6E8200C4E38A /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87909758210C6E8200C4E38A /* TestClass.swift */; };
+		8790975B210C6EAE00C4E38A /* TPrivateTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790975A210C6EAE00C4E38A /* TPrivateTestClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		8790972D210C53F600C4E38A /* YLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLog.swift; sourceTree = "<group>"; };
 		87909754210C6AEF00C4E38A /* SecondFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFile.swift; sourceTree = "<group>"; };
 		87909756210C6B0800C4E38A /* ThirdFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFile.swift; sourceTree = "<group>"; };
+		87909758210C6E8200C4E38A /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		8790975A210C6EAE00C4E38A /* TPrivateTestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TPrivateTestClass.swift; path = YLogging/TPrivateTestClass.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				87909753210C69AB00C4E38A /* Class */,
 				87909725210C533600C4E38A /* YLogging.h */,
 				87909726210C533600C4E38A /* Info.plist */,
+				8790975A210C6EAE00C4E38A /* TPrivateTestClass.swift */,
 				87909754210C6AEF00C4E38A /* SecondFile.swift */,
 			);
 			path = YLogging;
@@ -65,6 +70,7 @@
 			children = (
 				8790972D210C53F600C4E38A /* YLog.swift */,
 				87909756210C6B0800C4E38A /* ThirdFile.swift */,
+				87909758210C6E8200C4E38A /* TestClass.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87909759210C6E8200C4E38A /* TestClass.swift in Sources */,
 				8790972E210C53F600C4E38A /* YLog.swift in Sources */,
 				87909757210C6B0800C4E38A /* ThirdFile.swift in Sources */,
+				8790975B210C6EAE00C4E38A /* TPrivateTestClass.swift in Sources */,
 				87909755210C6AEF00C4E38A /* SecondFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
