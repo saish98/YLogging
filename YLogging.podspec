@@ -16,5 +16,5 @@ s.platform            = :ios, "10.0"
 #8.
 s.source              = { :git => "https://github.com/saish98/YLogging.git", :tag => "1.0.2" }
 #9.
-s.source_files     = "Source/**/*.swift"
+s.source_files     = "YLogging", "YLogging/**/Class/*.{h,m,swift}"
 end
